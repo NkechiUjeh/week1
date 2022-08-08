@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.parent-container{
+    padding-top: 10em;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.logo{
+    font-family:  SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+.logo img{
+    width: 400px;
+    
+}
+.logo p{
+    font-size: 28px;
+    
+    
+}
+.form{
+    border: 1px solid gray;
+    font-size: 24px;
+    
+
+}
+
+.details input{
+    padding-right: 100px;
+    font-size:large;
+    line-height: 2;
+    
+    
+}
+.align-text{
+    text-align: center;
+}
+.text-deco{
+    text-decoration-line: none;
+    color: blue;
+}
+.login a input{
+    cursor: pointer;
+    border: 0px;
+    color: white;
+    background-color: #1877f2;
+    font-size: 20px;
+    padding:20px 140px;
+}
+.create-password{
+    border: 1px solid black;
+    
+}

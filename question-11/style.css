@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.d-flex{
+    display: flex;
+}
+.b{
+    border: 1px solid green;
+}
+.bck-ground-color{
+    background-color: orangered;
+}
+.justify-spc-arund{
+    justify-content: space-evenly;
+}
+.parent-header{
+    
+    color: black;
+}
+
+.logo img{
+    width: 5em;
+}
+.drop-dwn-link{
+    
+}
+.nav-bar ul{
+    list-style-type: none;
+
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+
+}
+.drop-dwn-link li{
+    visibility: hidden;
+}
+.drop-dwn-link a:hover{
+    visibility: visible;
+}
